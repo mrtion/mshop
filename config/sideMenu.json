@@ -1,0 +1,86 @@
+[
+  {
+    "name": "商品分类管理",
+    "lists": [
+      {
+        "name": "分类列表",
+        "url": "nodeList"
+      },
+      {
+        "name": "添加分类",
+        "url": "editNode"
+      }
+    ]
+  },
+  {
+    "name": "品牌管理",
+    "lists": [
+      {
+        "name": "品牌列表",
+        "url": "brandList"
+      },
+      {
+        "name": "添加品牌",
+        "url": "editBrand"
+      }
+    ]
+  },
+  {
+    "name": "商品管理",
+    "lists": [
+      {
+        "name": "商品列表",
+        "url": "goodsList"
+      },
+      {
+        "name": "商品添加",
+        "url": "editGoods"
+      }
+    ]
+  },
+  {
+    "name": "库存管理",
+    "lists": [
+      {
+        "name": "商品库存列表",
+        "url": "stockList"
+      }
+    ]
+  },
+  {
+    "name": "用户管理",
+    "lists": [
+      {
+        "name": "用户列表",
+        "url": "usersList"
+      }
+    ]
+  },
+  {
+    "name": "订单管理",
+    "lists": [
+      {
+        "name": "订单列表",
+        "url": "orderList"
+      }
+    ]
+  },
+  {
+    "name": "评价管理",
+    "lists": [
+      {
+        "name": "评价列表",
+        "url": "reviewsList"
+      }
+    ]
+  },
+  {
+    "name": "收款方式管理",
+    "lists": [
+      {
+        "name": "收款方式列表",
+        "url": "payList"
+      }
+    ]
+  }
+]

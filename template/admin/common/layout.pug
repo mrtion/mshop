@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title= title
+    meta(name="renderer" content="webkit")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+    link(rel='stylesheet', href='/admin/css/style.css')    
+    link(rel="stylesheet", href="/layui/css/layui.css", media="all")
+  body
+    div(class="layui-layout layui-layout-admin")
+      div(class="layui-header header header-demo")
+        span.user-tool #{ user } | 
+          a(href="#") 退出
+        h1.side-name MRTION 后台管理
+      div(class="layui-side layui-bg-black")
+        div.layui-side-scroll
+          ul(class="layui-nav layui-nav-tree", lay-filter="demo")
+            -sideMenu.forEach( (item) => {
+              li(class="layui-nav-item layui-nav-itemed")
+                a(href="javascript:;") #{ item.name }
+                dl(class="layui-nav-child")
+                  -item.lists.forEach( (list) => {
+                    dd(class=(list.url == fileName) ? 'layui-this' : '')
+                      a(href = '/admin/'+list.url) #{list.name}
+                  -})
+            -})
+        
+      .content
+        block content
+  
+  script(src="/layui/layui.js",charset="utf-8")
+  script(src="/admin/js/common.js",charset="utf-8")
+  block script
+  

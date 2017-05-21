@@ -1,0 +1,22 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{font:12px '微软雅黑','Avenir', Helvetica, Arial, sans-serif;color: #2c3e50;}
+.header{padding:0 20px;line-height:60px;color:#fff;}
+.header .user-tool{float:right;}
+.header .user-tool em{font-style:normal;}
+.header .side-name{font-size:30px;}
+.content{padding:20px 20px 20px 220px;}
+.page-title{height:40px;line-height:40px;border-bottom:1px solid #000;font-size:20px;}
+.page-content{padding:20px 0;}
+
+
+/*节点列表
+/*.node-lists{}
+.node-lists li{display:inline-block;width:100%;height:40px;line-height:40px;}
+.node-lists li:hover{background-color:#eee;}
+.node-lists li span{display:block;float:left;font-size:14px;box-sizing:border-box;padding:0 10px;}
+.node-lists li span.node-name{width:60%;}
+.node-lists li span.node-id,.node-lists li span.node-pro{width:20%;}
+.node-lists li span.node-pro em{font-style:normal;color:#177cc7;cursor:pointer;}*/*/
